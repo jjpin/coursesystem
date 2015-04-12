@@ -1,0 +1,17 @@
+<p>
+  <strong>Course:</strong>
+  <%= @article.course %>
+</p>
+ 
+<p>
+  <strong>Teacher:</strong>
+  <%= @article.teacher %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @article.time %>
+</p>
+
+<%= link_to 'Back', articles_path %>
+<%= link_to 'Edit', edit_article_path(@article) %>
